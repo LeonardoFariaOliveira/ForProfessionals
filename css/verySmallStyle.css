@@ -1,0 +1,499 @@
+@media only screen and (max-width: 330px) {
+
+  /*Menu*/
+  #menu img{
+
+    margin-left: 22%;
+    /* border: 1px solid red; */
+    margin-right: none;
+    width: 200px;
+
+  }
+
+    /*Vagas*/
+  .card-off
+  {
+
+    
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: #e5e5e5;
+    /* box-shadow: -1.5px 1.5px 3px #BA25DB; */
+    border-radius: 10px;
+    height: 200px;
+
+
+  }
+
+
+  .titulo-card
+  {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .descricao-card-off
+  {
+    padding: 10px;
+    width: 50%;
+    margin-left: 55%;
+    margin-top: -50px;
+    word-break: break-all;
+    font-size: 10px;
+  }
+
+  .descricao-card-on
+  {
+    padding: 10px;
+    padding-left: none;
+     width: 250px;
+    word-break: break-all;
+    font-size: 10px; 
+    /* border: 1px solid red; */
+    margin-left: none;
+    
+  }
+
+  .info-vaga
+{
+
+
+  margin-left: -30px;
+  margin-top: 0px;
+  width: 260px;
+  max-height: 550px;
+  min-height: 250px;
+  /* border: 1px solid blue; */
+  padding: 20px;
+
+}
+
+
+  /*Desenvolvedores*/
+  .devs{
+    margin-left: -6%;
+    margin-right: 0;
+    /* width: 320px; */
+  }
+
+  .dev{
+    width: 310px;
+    /* border:1px solid red; */
+   }
+  .area_dev{
+   width: 250px;
+  }
+
+
+   .img_dev{
+    width: 250px;
+   }
+
+
+   /*Sobre*/
+   .sobre{
+
+    font-size: 12px;
+
+   }
+
+
+   /*Login*/
+   #pos_button_login{
+
+    /* margin-left:2%;
+    margin-right: 25%; */
+    position: relative;
+    top: 100px;
+    background-color: #fff;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 3px;
+    width: 80%;
+    /* margin-left: -10%; */
+    margin-left: 2px;
+    margin-right: 0%;
+  }
+
+  #pos_button_login h2{
+
+    font-size: 20px;
+  
+  }
+
+  #profissional{
+
+    margin-bottom: 10px;
+    width: 280px;
+    margin-left: -1%;
+    /* margin-right: -20%; */ 
+
+  }
+
+  #empresa{
+    width: 280px;
+    margin-left: -1%;
+  }
+
+  
+  #form_prof{
+
+    position: relative;
+    top: 10px;
+    left: 2%;
+    background-color: #fff;
+    padding: 50px;
+    width: 66%;
+    /* margin-bottom: 120px; */
+
+
+  }
+
+  #form_prof h1{
+
+
+    margin-bottom: -20px;
+    margin-top: -10px;
+
+
+  }
+
+  #form_prof input{
+
+
+    padding: 10px;
+    width: 230px;
+    margin-left: -8%;
+
+
+  }
+
+  #form_prof .btn_prof{
+
+
+
+    margin-left: -8%;
+    width: 258px;
+
+
+  }
+  #form_prof .btn_prof:hover{
+
+
+
+    margin-left: -8%;
+    width: 258px;
+
+
+  }
+
+  #form_emp{
+
+    position: relative;
+    top: 10px;
+    left: 2%;
+    background-color: #fff;
+    padding: 50px;
+    width: 66%;
+    /* margin-bottom: 120px; */
+
+
+  }
+
+  #form_emp h1{
+
+
+    margin-bottom: -20px;
+    margin-top: -10px;
+
+
+  }
+
+  #form_emp input{
+
+
+    padding: 10px;
+    width: 230px;
+    margin-left: -8%;
+
+
+  }
+
+  #form_emp .btn_emp{
+
+
+
+    margin-left: -8%;
+    width: 258px;
+
+
+  }
+  #form_emp .btn_emp:hover{
+
+
+
+    margin-left: -8%;
+    width: 258px;
+
+
+  }
+
+  #cadastro #pos_button_login{
+
+    /* margin-left:2%;
+    margin-right: 25%; */
+    position: relative;
+    top: 100px;
+    /* left: -10px; */
+    background-color: #fff;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 3px;
+    width: 81%;
+    /* margin-left: -10%; */
+    margin-left: 1%;
+    margin-right: 0%;
+
+}
+
+  #cadastro #profissional{
+
+    margin-bottom: 10px;
+    width: 270px;
+    margin-left: -4%;
+    /* margin-right: -20%; */ 
+
+  }
+
+  #cadastro #empresa{
+    width: 270px;
+    margin-left: -4%;
+  }
+
+  #cadastro #form_prof_2 input{
+
+
+    padding: 10px;
+    width: 240px;
+    margin-left: -8%;
+    display: inline-block;
+    margin-bottom: 5px;
+
+
+  }
+
+  #cadastro #form_prof_2 .btn_prof{
+
+
+    margin-left: -4%;
+    /* border: 1px solid red; */
+    width: 240px;
+
+
+  }
+
+  #cadastro #form_emp_2 input{
+
+
+    padding: 10px;
+    width: 240px;
+    margin-left: -8%;
+    display: inline-block;
+    margin-bottom: 5px;
+
+
+  }
+
+  #cadastro #form_emp_2 .btn_emp{
+
+
+    margin-left: -4%;
+    /* border: 1px solid red; */
+    width: 240px;
+
+
+  }
+  #cadastro #form_emp_2 .btn_emp:hover{
+
+
+    margin-left: -4%;
+    /* border: 1px solid red; */
+    width: 240px;
+
+
+  }
+
+  #cadastro #form_emp_2 .btn_prof:hover{
+
+
+    margin-left: -4%;
+    /* border: 1px solid red; */
+    width: 240px;
+
+
+  }
+
+  /*Alterar Dados Profissional*/
+  #prof_2{
+
+    position: relative;
+    top: 100px;
+    /* left: 30%; */
+    background-color: #fff;
+    padding: 40px;
+    padding-right: 0;
+    margin-bottom: 120px;
+    display: inline-block;
+    margin-left: 2%;
+    width: 87%;
+    margin-right: 0;
+   
+  }
+
+  #prof_2 input{
+  
+    padding: 10px;
+    width: 240px;
+    margin-left: -8%;
+    display: inline-block;
+    margin-bottom: 5px;
+  
+  
+  }
+    
+  #prof_2 select{
+  
+    padding: 10px;
+    width: 240px;
+    margin-left: -8%;
+  
+  
+  }
+  
+  #prof_2 .btn_prof{
+
+
+    margin-left: -3%;
+    /* border: 1px solid red; */
+    width: 260px;
+
+
+  }
+
+  #prof_2 .btn_prof:hover{
+
+
+    margin-left: -3%;
+    /* border: 1px solid red; */
+    width: 260px;
+
+
+  }
+
+  /*Empresa UserPage*/
+  #hist, #info{
+
+    width: 250px;
+    font-size: 15px;
+    /* border: 1px solid red; */
+
+  }
+
+  #linhaMove{
+
+    width: 70px;
+    transform: rotate(90deg);
+    margin-left: 245px;
+    /* margin-left: 268px; */
+    margin-top: -95px;
+    position: absolute;
+  }
+
+  .concluir, .cancelar, .alterar{
+
+
+    width: 230px;
+
+  
+  
+  }
+
+  /*Criar Vaga*/
+  #create_vaga{
+
+    position: relative;
+    top: 100px;
+    background-color: #fff;
+    padding: 30px;
+    padding-right: 0;
+    margin-bottom: 120px;
+    display: inline-block;
+    margin-left: -75px;
+    width: 88%;
+
+  }
+
+  #create_vaga input, textarea{
+
+    width: 220px;
+
+  }
+
+
+
+  #create_vaga .btn_emp{
+
+    width: 240px;
+    margin-left: 0px
+    
+  }
+
+  #create_vaga .btn_emp:hover{
+
+    width: 240px;
+    margin-left: 0px
+    
+  }
+
+  /*Criar Vaga*/
+  #edit_vaga{
+
+    position: relative;
+    top: 100px;
+    background-color: #fff;
+    padding: 30px;
+    padding-right: 0;
+    margin-bottom: 120px;
+    display: inline-block;
+    margin-left: -75px;
+    width: 88%;
+
+  }
+
+  #edit_vaga input, textarea{
+
+    width: 220px;
+
+  }
+
+
+
+  #edit_vaga .btn_emp{
+
+    width: 240px;
+    margin-left: 0px
+    
+  }
+
+  #edit_vaga .btn_emp:hover{
+
+    width: 240px;
+    margin-left: 0px
+    
+  }
+
+
+}

@@ -1,0 +1,177 @@
+@media only screen and (min-width: 1500px) {
+
+/*Sobre*/
+.sobre{
+  
+  padding: 20px;
+  width: 60%;
+  margin-left: 20%;
+  text-align: justify;
+
+
+}
+
+/*Card Vaga - off*/
+.descricao-card-off
+  {
+    padding: 10px;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -5%;
+    word-break: break-all;
+  }
+      
+  .effect-to-login
+  {
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(250, 250, 250, 0.6);
+    height: 120px;
+    width: 66%;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.4s;
+  }
+
+  /*Posição dos Botões do Login/Cadastro(Acesso)*/
+  #pos_button_login{
+    margin-left:35%;
+    margin-right: 25%;
+    position: relative;
+    top: 300px;
+    background-color: #fff;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 3px;
+  }
+
+  /*Rodape*/
+  #cadastro #rodape{
+    position: absolute;
+    bottom: 0;
+    background-color: #111;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    top: 100%;
+  }
+
+  #userpage #rodape{
+    position: absolute;
+    bottom: 0;
+    background-color: #111;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    top: 110%;
+  }
+
+  #alter_data #rodape{
+    position: absolute;
+    bottom: 0;
+    background-color: #111;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    top: 100%;
+  }
+
+  #emp #rodape{
+    position: absolute;
+    bottom: 0;
+    background-color: #111;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    top: 100%; 
+  }
+
+  #create #rodape{
+    position: absolute;
+    bottom: 0;
+    background-color: #111;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    top: 120%;
+  }
+
+  #alter_vaga #rodape{
+    position: absolute;
+    bottom: 0;
+    background-color: #111;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    top: 120%;
+  }
+
+  /*Profissional*/
+  #prof{
+    position: relative;
+    top: 100px;
+    left: 33%;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: -2px 2px 2px #333, 2px -2px 2px #333;
+    margin-bottom: 120px;
+    width: 600px;
+  }
+
+  /*Dados da Empresa*/
+  #emp_data{
+    position: relative;
+    top: 100px;
+    left: 33%;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: -2px 2px 2px #333, 2px -2px 2px #333;
+    margin-bottom: 120px;
+    width: 600px;
+  }
+
+  /*Formulario de Criar a Vaga*/
+  #create_vaga{
+    position: relative;
+    top: 100px;
+    left: 33%;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: -2px 2px 2px #333, 2px -2px 2px #333;
+    margin-bottom: 120px;
+    width: 640px;
+  }
+
+  /*Editar Dados da Vaga*/
+  #edit_vaga{
+    position: relative;
+    top: 100px;
+    left: 33%;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: -2px 2px 2px #333, 2px -2px 2px #333;
+    margin-bottom: 120px;
+    width: 640px;
+  }
+
+  /*Desenvolvedores*/
+  .devs{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    padding-left: 12%;
+    padding-right: 10%;
+    width: 96%;
+    max-width: 1500px;
+    box-sizing: border-box;
+  }
+
+}
